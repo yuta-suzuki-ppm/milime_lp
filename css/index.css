@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Hiragino Sans", "游ゴシック", sans-serif;
+    color: #333333;
+}
+
+/* ナビゲーションメニュー */
+.header {
+    background-color: #ffffff;
+    display: flex;
+    top: 0;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.my_contact {
+    background-color: #083485;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    padding: 0.5rem 5rem;
+    border-radius: 20px;
+}
+
+/* section */
+.mb_15 {
+    margin-bottom: 12rem;
+}
+
+.mb_10 {
+    margin-bottom: 6rem;
+}
+
+/* title */
+.my_h2_span {
+    font-family: "Yu Mincho", "游明朝", serif;
+    font-size: 64px;
+    border-right: solid 10px #56DDFF;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+@media(max-width:981px) {
+    .navbar_brand_logo {
+        margin-top: 10px;
+    }
+
+    .my_contact {
+        margin-top: 5px;
+        padding: 0.25rem 2rem;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+
+    .mb_15 {
+        margin-bottom: 5rem;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .my_h2_span {
+        font-size: 32px;
+        border-right: solid 5px #56DDFF;
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+}
+
+/* top */
+.top {
+    margin-top: 80px;
+}
+
+/* answer */
+.answer_text {
+    border-top: solid 10px #083485;
+    border-bottom: solid 10px #083485;
+}
+
+.textred {
+    color: red;
+    font-size: 24px;
+}
+
+.underline_yellow {
+    font-size: 24px;
+    border-bottom: solid 10px #FFFF01;
+}
+
+@media(max-width:981px) {
+    .answer_text {
+        padding: 2rem;
+    }
+
+    .answer_br {
+        display: none;
+    }
+
+    .textred {
+        color: red;
+        font-size: 16px;
+    }
+
+    .underline_yellow {
+        font-size: 16px;
+        border-bottom: solid 5px #FFFF01;
+    }
+}
+
+/* resolution */
+.resolution {
+    background-color: #EEEEEE;
+}
+
+/* item */
+.item {
+    background-color: #083485;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.item_h {
+    font-size: 24px;
+}
+
+/* reason */
+.reason_h {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* form */
+.form {
+    margin-top: 6rem;
+    background-color: #EEEEEE;
+}
+
+.form_required {
+    color: red;
+}
+
+.my_submit {
+    background-color: #083485;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    padding: 0.5rem 5rem;
+    border-radius: 20px;
+}
+
+/* footer */
+footer {
+    height: 216px;
+    background-color: #083485;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.footer {
+    position: relative;
+    top: 100px;
+    display: block;
+    text-align: center;
+}
+
+.footer_br {
+    display: none;
+}
+
+@media(max-width:576px) {
+    .footer_br {
+        display: block;
+    }
+}
