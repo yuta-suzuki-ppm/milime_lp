@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="83" viewBox="0 0 540 83">
+  <g id="kaiketsu_title" transform="translate(-264 -897.5)">
+    <text id="解" transform="translate(296 960.5)" fill="#333" font-size="64" font-family="YuMincho-Demibold, Yu Mincho" font-weight="300"><tspan x="-32" y="0">解</tspan></text>
+    <line id="線_1" data-name="線 1" y1="68.5" transform="translate(346.5 900.5)" fill="none" stroke="#56ddff" stroke-width="10"/>
+    <text id="それ_MILIMEが解決します_" data-name="それ、MILIMEが解決します！" transform="translate(369 947)" fill="#333" font-size="32" font-family="NotoSansCJKjp-Bold, Noto Sans CJK JP" font-weight="700"><tspan x="0" y="0">それ、MILIMEが解決します！</tspan></text>
+  </g>
+</svg>
