@@ -284,41 +284,51 @@
       <div class="row">
         <div class="col-lg-8 col-10 mx-auto">
 
-          <form>
+          <!-- 郵便番号YubinBango -->
+          <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+
+          <form action="https://ssl.form-mailer.jp/fm/service/Forms/confirm" class="h-adr" method="post" name="form1"
+            ENCTYPE="multipart/form-data" accept-charset="UTF-8">
+            <input type="hidden" name="key" value="9a84b413769375">
 
             <div class="mb-3">
               <label for="Company" class="form-label">会社名<span class="ms-3 form_required">(必須)</span></label>
-              <input name="field_6676783_sei" type="text" class="form-control" id="Company" required>
+              <input name="field_6677552" type="text" class="form-control" id="Company" required>
             </div>
 
             <div class="mb-3">
               <label for="Name" class="form-label">担当者名<span class="ms-3 form_required">(必須)</span></label>
-              <input name="field_6676783_mei" type="text" class="form-control" id="Name" required>
+              <input name="field_6677554_sei" type="text" class="form-control" id="Name" required>
             </div>
 
             <div class="mb-3">
               <label for="Department" class="form-label">部署名</label>
-              <input name="field_6676777" type="text" class="form-control" id="Department">
+              <input name="field_6677554_mei" type="text" class="form-control" id="Department">
             </div>
 
             <div class="mb-3">
               <label for="Tell" class="form-label">電話番号<span class="ms-3 form_required">(必須)</span></label>
-              <input name="field_6676776" type="tel" class="form-control" id="Tell" required>
+              <input name="field_6677553" type="tel" class="form-control" id="Tell" required>
             </div>
 
             <div class="mb-3">
               <label for="Mail" class="form-label">メールアドレス<span class="ms-3 form_required">(必須)</span></label>
-              <input name="field_6676780" type="email" class="form-control" id="Mail" required>
+              <input name="field_6677555" type="email" class="form-control" id="Mail" required>
             </div>
+
+            <!-- 国の指定 -->
+            <span class="p-country-name" style="display:none;">Japan</span>
 
             <div class="mb-3">
               <label for="Adressnumber" class="form-label">郵便番号<span class="ms-3 form_required">(必須)</span></label>
-              <input name="field_6676802_zip" type="number" class="form-control" id="Adressnumber" required>
+              <input name="field_6677556_zip" type="text" class="form-control p-postal-code" id="Adressnumber" size="10"
+                maxlength="8" required>
             </div>
 
             <div class="mb-3">
               <label for="Adress" class="form-label">住所<span class="ms-3 form_required">(必須)</span></label>
-              <input name="field_6676802_addr1" type="text" class="form-control" id="Adress" required>
+              <input name="field_6677556_addr1" type="text"
+                class="form-control p-region p-locality p-street-address p-extended-address" id="Adress" required>
             </div>
 
             <div class="mb-3">
@@ -337,8 +347,9 @@
               <textarea name="field_6676805" id="Example" class="form-control"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary d-block mx-auto mb-5 my_submit">送信</button>
+            <input name="submit" type="submit" value="送信" class="btn btn-primary d-block mx-auto mb-5 my_submit">
 
+            <input type="hidden" name="code" value="utf8">
           </form>
 
         </div>
