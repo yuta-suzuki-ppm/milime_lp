@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="452" height="434" viewBox="0 0 452 434">
-  <g id="resolution3" transform="translate(-99 -2816)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="452" height="440" viewBox="0 0 452 440">
+  <g id="resolution3" transform="translate(-99 -2810)">
     <g id="title" transform="translate(17.75 26)">
-      <text id="安全" transform="translate(114 2821)" fill="#333" font-size="32" font-family="YuMincho-Demibold, Yu Mincho" font-weight="300"><tspan x="-32" y="0">安全</tspan></text>
+      <text id="安全" transform="translate(114 2821)" fill="#333" font-size="32" font-family="NotoSansCJKjp-Bold, Noto Sans CJK JP" font-weight="700"><tspan x="-32" y="0">安全</tspan></text>
       <line id="線_4" data-name="線 4" y1="34" transform="translate(151 2793.5)" fill="none" stroke="#56ddff" stroke-width="5"/>
       <text id="シックハウス症候群やアレルギー" transform="translate(335 2820.5)" fill="#333" font-size="24" font-family="NotoSansCJKjp-Bold, Noto Sans CJK JP" font-weight="700"><tspan x="-179.4" y="0">シックハウス症候群やアレルギー</tspan></text>
     </g>

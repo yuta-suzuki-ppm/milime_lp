@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="451" height="410.5" viewBox="0 0 451 410.5">
-  <g id="resolution4" transform="translate(-603 -2815.5)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="451" height="416.5" viewBox="0 0 451 416.5">
+  <g id="resolution4" transform="translate(-603 -2809.5)">
     <g id="title" transform="translate(552 25.5)">
-      <text id="防カビ" transform="translate(99 2821)" fill="#333" font-size="32" font-family="YuMincho-Demibold, Yu Mincho" font-weight="300"><tspan x="-48" y="0">防カビ</tspan></text>
+      <text id="防カビ" transform="translate(99 2821)" fill="#333" font-size="32" font-family="NotoSansCJKjp-Bold, Noto Sans CJK JP" font-weight="700"><tspan x="-48" y="0">防カビ</tspan></text>
       <line id="線_4" data-name="線 4" y1="34" transform="translate(152 2793.5)" fill="none" stroke="#56ddff" stroke-width="5"/>
       <text id="部屋干し_結露によるカビ" data-name="部屋干し、結露によるカビ" transform="translate(301 2820)" fill="#333" font-size="24" font-family="NotoSansCJKjp-Bold, Noto Sans CJK JP" font-weight="700"><tspan x="-143.64" y="0">部屋干し、結露によるカビ</tspan></text>
     </g>
