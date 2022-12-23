@@ -35,7 +35,8 @@ body {
 
 /* title */
 .my_h2_span {
-    font-family: "Yu Mincho", "游明朝", serif;
+    /* font-family: "Yu Mincho", "游明朝", serif; */
+    font-weight: 600;
     font-size: 64px;
     border-right: solid 10px #56DDFF;
     padding-right: 10px;
@@ -79,21 +80,24 @@ body {
 .answer_text {
     border-top: solid 10px #083485;
     border-bottom: solid 10px #083485;
+    padding: 8rem 0;
+    font-size: 24px;
 }
 
 .textred {
     color: red;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .underline_yellow {
-    font-size: 24px;
+    font-size: 32px;
     border-bottom: solid 10px #FFFF01;
 }
 
 @media(max-width:981px) {
     .answer_text {
         padding: 2rem;
+        font-size: 16px;
     }
 
     .answer_br {
@@ -118,13 +122,36 @@ body {
 
 /* item */
 .item {
-    background-color: #083485;
-    color: #FFFFFF;
+    background-color: #3AABD2;
     font-weight: 600;
+}
+
+.item .my_h2_span {
+    /* font-family: "Yu Mincho", "游明朝", serif; */
+    font-weight: 600;
+    font-size: 64px;
+    border-right: solid 10px #083485;
+    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .item_h {
     font-size: 24px;
+}
+
+/* obsession */
+.obsession_sp {
+    display: none;
+}
+
+@media(max-width:981px) {
+    .obsession_sp {
+        display: block;
+    }
+
+    .obsession_pc {
+        display: none;
+    }
 }
 
 /* reason */
