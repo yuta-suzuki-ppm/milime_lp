@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    font-family: "Hiragino Sans", "游ゴシック", sans-serif;
+    font-family: "Hiragino Sans", "Arial", "游ゴシック", system-ui, sans-serif;
     color: #333333;
 }
 
@@ -35,7 +35,6 @@ body {
 
 /* title */
 .my_h2_span {
-    /* font-family: "Yu Mincho", "游明朝", serif; */
     font-weight: 600;
     font-size: 64px;
     border-right: solid 10px #56DDFF;
@@ -120,6 +119,17 @@ body {
     background-color: #EEEEEE;
 }
 
+.resolution5 {
+    position: relative;
+}
+
+.resolution5_1 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    padding: 70px;
+}
+
 /* item */
 .item {
     background-color: #3AABD2;
@@ -127,7 +137,6 @@ body {
 }
 
 .item .my_h2_span {
-    /* font-family: "Yu Mincho", "游明朝", serif; */
     font-weight: 600;
     font-size: 64px;
     border-right: solid 10px #083485;
