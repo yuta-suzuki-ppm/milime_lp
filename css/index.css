@@ -132,35 +132,9 @@ body {
 }
 
 /* item */
-.item {
-    background-color: #3AABD2;
-    font-weight: 600;
-}
-
-.item .my_h2_span {
-    font-weight: 600;
-    font-size: 64px;
-    border-right: solid 10px #083485;
-    padding-right: 10px;
-    margin-right: 10px;
-}
 
 .item_h {
     font-size: 24px;
-}
-
-@media(max-width:981px) {
-
-    .item h2 {
-        font-size: 18px;
-    }
-
-    .item .my_h2_span {
-        font-size: 32px;
-        border-right: solid 5px #083485;
-        padding-right: 5px;
-        margin-right: 5px;
-    }
 }
 
 /* obsession */
@@ -213,7 +187,7 @@ footer {
 
 .footer {
     position: relative;
-    top: 100px;
+    top: 60px;
     display: block;
     text-align: center;
 }
