@@ -2,7 +2,7 @@
 
 body {
     /* font-family: "Hiragino Sans", "Arial", "游ゴシック", system-ui, sans-serif; */
-    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "游ゴシック", sans-serif;
     color: #333333;
 }
 
@@ -14,6 +14,7 @@ body {
     height: 80px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .my_contact {
@@ -118,6 +119,7 @@ body {
 /* resolution */
 .resolution {
     background-color: #EEEEEE;
+    z-index: 2;
 }
 
 .resolution5 {
