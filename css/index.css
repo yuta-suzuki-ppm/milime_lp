@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body {
-    /* font-family: "Hiragino Sans", "Arial", "游ゴシック", system-ui, sans-serif; */
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "游ゴシック", sans-serif;
     color: #333333;
 }
