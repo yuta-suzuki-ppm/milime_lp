@@ -133,6 +133,9 @@ body {
 }
 
 /* item */
+.item {
+    font-weight: 600;
+}
 
 .item_h {
     font-size: 24px;
